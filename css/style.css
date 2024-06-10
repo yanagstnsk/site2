@@ -128,14 +128,14 @@ header {
     border: none;
     border-radius: 40px;
     background-color: #EFAD2F;
-    color: #F2F3E8;
+    color: black;
     text-align: center;
     font-size: 22px;
     transition: all .42s ease;
 }
 
 .main-btn:hover {
-    color: #2c2c2c;
+    color: #F2F3E8;
 }
 
 .models {
