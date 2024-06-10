@@ -1,0 +1,97 @@
+body {
+    font-family: "Literata", serif;
+    margin: 0;
+    padding: 0;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background:#F2F3E8;
+}
+*{
+     list-style: none;
+     text-decoration: none;
+}
+.logo img{ 
+    position:absolute;
+    top: 0;
+    left: 0;
+    max-width: 350px;
+    height:auto;
+    margin-left: 14px;
+    margin-top: 10px;
+}
+.back{
+    position: absolute;
+    top: 0;
+    right: 0;
+    color: black;
+   font-size: 22px;
+   margin-right: 40px;
+   margin-top: 55px;
+   transition: all .42s ease;
+}
+.bac a:hover{
+    color: #EFAD2F;
+}
+
+.center-text{
+    text-align: center;
+    font-size: 25px;
+    color: black;
+    padding: 30 px;
+    }
+    
+.cart{
+    text-align: center;
+    font-size: 20px;
+    color: black;
+    }
+
+.ycart{
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+.ycart p {
+    text-align: center;
+    margin-bottom: 30px;
+    border-top: 1px solid #EFAD2F ;
+    padding-bottom: 20px;
+    
+    margin-bottom: 40px;
+    font-size: 28px;
+    color: #EFAD2F;
+    }
+ .clear-cart{
+    display: inline-block;
+    padding: 10px;
+    background-color: #F2F3E8; 
+    border: 1px solid;
+    cursor: pointer;
+    border-radius: 50px; 
+    transition: all .42s ease;
+    font-size: 15px;
+    margin-top: 10px;
+    }
+.clear-cart:hover{
+    background-color: #EFAD2F;
+    color: #F2F3E8;
+}
+
+.order{
+    margin-top: 13px;
+    display: inline-block;
+    padding: 10px;
+    background-color: #F2F3E8; 
+    border: 1px solid;
+    cursor: pointer;
+    border-radius: 50px; 
+    transition: all .42s ease;
+    font-size: 17px;
+    color: #000;
+}
+
+.order:hover{
+    background-color: #EFAD2F;
+    color: #F2F3E8;
+}

@@ -1,0 +1,47 @@
+<!doctype html>
+<html lang="ua">
+<head>
+    <meta charset="UTF-8">                                                                                                                 
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+    <title>YASMIN-магазин жіночого одягу</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet"
+  href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
+</head>
+
+<body>
+ <header> 
+    <a href="#" class="logo"><img src="image/logo.PNG" alt=""></a>
+    <div class="burger-menu" onclick="toggleMenu()">☰</div>
+    <div class="close-menu" onclick="toggleMenu()">✖</div>
+    <ul class="navmenu">
+        <li><a href="./order.html">Замовити</a></li>
+        <li><a href="./care.html">Догляд за одягом</a></li>
+        <li><a href="./reviews.html">Відгуки</a></li>
+        <li><a href="./contacts.html">Контакти</a></li>
+        <li><a href="./about.html">Про нас</a></li>
+        </ul> 
+ </header> 
+
+ <div class="all">
+    <div class="background"></div>
+    <div class="main-text">
+        <h1>Створюй свій образ <br> разом з нами</h1>
+        <p>Магазин жіночого одягу</p>
+        <a href="./katalog.html" class="main-btn">Перейти до каталогу</a>
+    </div>
+    <div class="models"></div>
+ </div>
+
+ <script>
+    function toggleMenu() {
+        document.querySelector('.navmenu').classList.toggle('active');
+        document.querySelector('.burger-menu').classList.toggle('active');
+        document.querySelector('.close-menu').classList.toggle('active');
+    }
+ </script>
+
+ <script src="script/parallax.js"></script>
+</body>
+</html>
