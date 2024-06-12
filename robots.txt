@@ -2,4 +2,4 @@ User-agent: *
 Disallow: 
 Disallow: 
 Allow: 
-Sitemap: 
+Sitemap: https://yanagstnsk.github.io/
